@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시간 보내기" />
+
+    <Button
+        android:id="@+id/btn_dif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="시간 차이 구하기" />
+
+    <Button
+        android:id="@+id/btn_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="타이머 가동" />
+
+    <TextView
+        android:id="@+id/txtv_send"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="시간 기록"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtv_dif"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="시간 차이"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="타이머 시간"
+        android:textSize="30sp" />
+
+</LinearLayout>

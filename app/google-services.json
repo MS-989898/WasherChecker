@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "226550208144",
+    "project_id": "washerchecker",
+    "storage_bucket": "washerchecker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226550208144:android:df95a17d44bf72725cea15",
+        "android_client_info": {
+          "package_name": "com.example.washerchecker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226550208144-khhqlounrg4s5r92h787fmib7mg0ggof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApf_8bK0tIJ2Kf9L428xxrERXqz6Vnoeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226550208144-khhqlounrg4s5r92h787fmib7mg0ggof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
